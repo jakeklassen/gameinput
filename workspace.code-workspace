@@ -5,8 +5,8 @@
       "path": "."
     },
     {
-      "name": "📦 controls",
-      "path": "packages/controls"
+      "name": "📦 input",
+      "path": "packages/input"
     }
   ],
   "settings": {

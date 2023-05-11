@@ -34,10 +34,10 @@ jobs:
         run: nci
 
       - name: Lint
-        run: nr -C packages/controls lint
+        run: nr -C packages/input lint
 
       - name: Build
-        run: nr -C packages/controls build
+        run: nr -C packages/input build
 
       - name: Test
-        run: nr -C packages/controls test --run
+        run: nr -C packages/input test --run
