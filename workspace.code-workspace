@@ -1,0 +1,15 @@
+{
+  "folders": [
+    {
+      "name": "✨ root",
+      "path": "."
+    },
+    {
+      "name": "📦 controls",
+      "path": "packages/controls"
+    }
+  ],
+  "settings": {
+    "typescript.preferences.importModuleSpecifierEnding": "js"
+  }
+}
