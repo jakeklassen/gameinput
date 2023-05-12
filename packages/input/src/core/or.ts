@@ -29,7 +29,7 @@ export function or(...controls: Control<unknown>[]): Control<unknown> {
         const queryValue = control.query();
         sampleQueryValue = queryValue;
 
-        if (queryValue != null) return queryValue;
+        if (Boolean(queryValue)) return queryValue;
       }
 
       if (typeof sampleQueryValue === 'boolean') return false;
