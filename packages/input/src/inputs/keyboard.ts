@@ -51,11 +51,7 @@ export class Keyboard {
         query: () => this.pressedKeys.size > 0,
         trigger: {
           label: 'Any key',
-          query: () => {
-            this.queuedKeys.clear();
-
-            return this.queuedKeys.size === 0;
-          },
+          query: () => this.pressedKeys.size > 0,
         },
       };
     }
