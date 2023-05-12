@@ -82,8 +82,6 @@ describe('The `Keyboard` class', () => {
       });
 
       it('returns `false` after button state was queried', () => {
-        doc.keyUp('Z');
-
         expect(keyboard.key('Z').trigger.query()).to.equal(false);
         expect(keyboard.key('any').trigger.query()).to.equal(false);
       });
