@@ -54,7 +54,7 @@ export class Keyboard {
           query: () => {
             this.queuedKeys.clear();
 
-            return this.pressedKeys.size === 0;
+            return this.queuedKeys.size === 0;
           },
         },
       };
