@@ -1,8 +1,8 @@
-import { IDocument } from '../apis.ts';
-import { Control, TriggerControl } from '../core/control.ts';
-import { findKeyValue, getKeyLabel } from '../maps/keyboard.ts';
-import { store } from '../store.ts';
-import { Vector2 } from '../utils/math.ts';
+import { IDocument } from '../apis.js';
+import { Control, TriggerControl } from '../core/control.js';
+import { findKeyValue, getKeyLabel } from '../maps/keyboard.js';
+import { store } from '../store.js';
+import { Vector2 } from '../utils/math.js';
 
 const arrowKeyTemplates: { [name: string]: [string, string[]] } = {
   arrows: ['Arrow keys', ['ArrowUp', 'ArrowLeft', 'ArrowDown', 'ArrowRight']],

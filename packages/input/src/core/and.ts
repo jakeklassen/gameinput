@@ -1,4 +1,4 @@
-import { Control } from './control.ts';
+import { Control } from './control.js';
 
 export function and(...controls: Control<boolean>[]): Control<boolean> {
   if (controls.length < 2) throw new Error('Less than two controls specified!');

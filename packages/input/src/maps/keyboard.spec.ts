@@ -1,5 +1,5 @@
 import { describe, expect, it } from 'vitest';
-import { findKeyValue, getKeyLabel } from './keyboard.ts';
+import { findKeyValue, getKeyLabel } from './keyboard.js';
 
 describe('The `Keyboard` mapping helper function', () => {
   describe('`findKeyValue()`', () => {

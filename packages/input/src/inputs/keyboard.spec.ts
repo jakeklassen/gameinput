@@ -1,9 +1,9 @@
 import { expect, describe, it } from 'vitest';
-import { IDocument } from '../apis';
-import { store } from '../store';
-import { Vector2 } from '../utils/math';
-import { MockEventTarget } from '../utils/mock';
-import { Keyboard } from './keyboard';
+import { IDocument } from '../apis.js';
+import { store } from '../store.js';
+import { Vector2 } from '../utils/math.js';
+import { MockEventTarget } from '../utils/mock.js';
+import { Keyboard } from './keyboard.js';
 
 class MockDocument extends MockEventTarget implements IDocument {
   public keyDown(key: string): void {

@@ -1,7 +1,7 @@
-import { ICanvas, IDocument } from '../apis.ts';
-import { Control, TriggerControl } from '../core/control.ts';
-import { store } from '../store.ts';
-import { Vector2 } from '../utils/math.ts';
+import { ICanvas, IDocument } from '../apis.js';
+import { Control, TriggerControl } from '../core/control.js';
+import { store } from '../store.js';
+import { Vector2 } from '../utils/math.js';
 
 const mouseButtons = ['left', 'middle', 'right'];
 

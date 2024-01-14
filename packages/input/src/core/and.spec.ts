@@ -1,6 +1,6 @@
 import { describe, expect, it } from 'vitest';
-import { and } from './and.ts';
-import { Control } from './control.ts';
+import { and } from './and.js';
+import { Control } from './control.js';
 
 describe('The `and()` operator function', () => {
   const controlA: Control<boolean> = { label: '[A]', query: () => true };

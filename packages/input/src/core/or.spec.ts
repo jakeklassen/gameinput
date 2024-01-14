@@ -1,7 +1,7 @@
 import { beforeAll, describe, expect, it } from 'vitest';
-import { store } from '../store.ts';
-import { Control } from './control.ts';
-import { or } from './or.ts';
+import { store } from '../store.js';
+import { Control } from './control.js';
+import { or } from './or.js';
 
 describe('the `or()` operator function', () => {
   const controlUndefined: Control<number | undefined> = {

@@ -1,5 +1,5 @@
 import { describe, expect, it } from 'vitest';
-import { findButtonNumber } from './gamepad.ts';
+import { findButtonNumber } from './gamepad.js';
 
 describe('The `Gamepad` mapping helper function', () => {
   describe('`findButtonNumber()`', () => {

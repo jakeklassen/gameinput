@@ -1,12 +1,12 @@
-import { IGamepad, INavigator, IWindow } from '../apis.ts';
-import { Control, TriggerControl } from '../core/control.ts';
+import { IGamepad, INavigator, IWindow } from '../apis.js';
+import { Control, TriggerControl } from '../core/control.js';
 import {
   GamepadButton,
   findButtonNumber,
   getButtonLabel,
-} from '../maps/gamepad.ts';
-import { store } from '../store.ts';
-import { Vector2 } from '../utils/math.ts';
+} from '../maps/gamepad.js';
+import { store } from '../store.js';
+import { Vector2 } from '../utils/math.js';
 
 export interface GamepadStick {
   label: string;

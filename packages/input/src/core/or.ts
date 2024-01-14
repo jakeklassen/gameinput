@@ -1,5 +1,5 @@
-import { store } from '../store.ts';
-import { Control } from './control.ts';
+import { store } from '../store.js';
+import { Control } from './control.js';
 
 export function or(...controls: Control<unknown>[]): Control<unknown> {
   if (controls.length < 2) throw new Error('Less than two controls specified!');

@@ -1,8 +1,8 @@
 import { expect, describe, it } from 'vitest';
-import { ICanvas, IDocument } from '../apis.ts';
-import { Vector2 } from '../utils/math.ts';
-import { MockEventTarget } from '../utils/mock.ts';
-import { Mouse } from './mouse.ts';
+import { ICanvas, IDocument } from '../apis.js';
+import { Vector2 } from '../utils/math.js';
+import { MockEventTarget } from '../utils/mock.js';
+import { Mouse } from './mouse.js';
 
 class MockCanvas extends MockEventTarget implements ICanvas {
   public pointerLockRequested = false;

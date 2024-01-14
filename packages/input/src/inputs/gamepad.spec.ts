@@ -1,9 +1,9 @@
 import { afterAll, beforeAll, describe, expect, it } from 'vitest';
-import { IGamepad, IGamepadButton, INavigator, IWindow } from '../apis.ts';
-import { store } from '../store.ts';
-import { Vector2 } from '../utils/math.ts';
-import { MockEventTarget } from '../utils/mock.ts';
-import { Gamepad } from './gamepad.ts';
+import { IGamepad, IGamepadButton, INavigator, IWindow } from '../apis.js';
+import { store } from '../store.js';
+import { Vector2 } from '../utils/math.js';
+import { MockEventTarget } from '../utils/mock.js';
+import { Gamepad } from './gamepad.js';
 
 class MockWindow extends MockEventTarget implements IWindow {}
 
